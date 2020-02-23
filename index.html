@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MTG price</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <p>MTG Price lookup</p>
+  </div>
+  <img src="https://img.scryfall.com/cards/normal/front/b/e/bef16a71-5ed2-4f30-a844-c02a0754f679.jpg?1562853529" alt="card image" id="cardImage">
+  <form>
+    <label>Card Name:</label>
+    <input id="nameInput" type="text"></input><br />
+    <input id="nameSubmit" type="submit" value="Submit"></input>
+  </form>
+  <div class="price">
+    <p>Aprox. Price: $<a id="priceNumber">1.00</a>.</p>
+  </div>
+  <p>Have you ever wondered how much a particular Magic the Gathering card is? Just type the card's name into the search bar, and find out what it's worth.
+    from a few cents, to thousands of dollars, MTG cards vary widely in price.</p>
+  <p>(Card images and prices are provided through the <a href="#">Scryfall</a> api. Some cards may not have a price due to rarity, in such cases, assume the price is "very high.")</p>
+  <div class="footer">
+    <p>Code is at <a href="https://github.com/redrob549/260creative2">Github</a> </p>
+  </div>
+  <script type="text/javascript" src="script.js">
+
+  </script>
+</body>
+
+</html>
