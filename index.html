@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>MTG price</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Yeon+Sung&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,18 +15,29 @@
   </div>
   <img src="https://img.scryfall.com/cards/normal/front/b/e/bef16a71-5ed2-4f30-a844-c02a0754f679.jpg?1562853529" alt="card image" id="cardImage">
   <form>
-    <label>Card Name:</label>
-    <input id="nameInput" type="text"></input><br />
+    <div>
+      <label>Card Name:</label>
+      <input id="nameInput" type="text"></input><br />
+    </div>
     <input id="nameSubmit" type="submit" value="Submit"></input>
   </form>
   <div class="price">
-    <p>Aprox. Price: $<a id="priceNumber">1.00</a>.</p>
+    <p>Aprox. Price: $<a id="priceNumber">-</a>.</p>
   </div>
-  <p>Have you ever wondered how much a particular Magic the Gathering card is? Just type the card's name into the search bar, and find out what it's worth.
-    from a few cents, to thousands of dollars, MTG cards vary widely in price.</p>
-  <p>(Card images and prices are provided through the <a href="#">Scryfall</a> api. Some cards may not have a price due to rarity, in such cases, assume the price is "very high.")</p>
+  <div class="mainText">
+    <p>Have you ever wondered how much a particular Magic the Gathering card is? Just type the card's name into the search bar, and find out what it's worth.
+      from a few cents, to thousands of dollars, MTG cards vary widely in price.</p>
+    <p>For some card examples, look up these cards:<br>
+      Harmless Offering<br>
+      Shivan Dragon<br>
+      Terastadon<br>
+      Scalding Tarn<br>
+      and if you're into spooky asthetics; Surgical Extraction.
+    </p>
+    <p>(Card images and prices are provided through the <a href="https://scryfall.com/">Scryfall</a> api. Some cards may not have a price due to rarity, in such cases, assume the price is "very high.")</p>
+  </div>
   <div class="footer">
-    <p>Code is at <a href="https://github.com/redrob549/260creative2">Github</a> </p>
+    <p>Code is at <a href="https://github.com/redrob549/creative2">Github</a> </p>
   </div>
   <script type="text/javascript" src="script.js">
 
